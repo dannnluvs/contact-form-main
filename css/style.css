@@ -21,14 +21,14 @@ body {
 
 .container form {
     background-color: white;
-    width: 50%;
-    height: 85vh;
+    width: 40%;
+    height: 90vh;
     border-radius: 10px;
     padding: 40px;
 }
 
 form .form-name {
-    /* background-color: lightblue; */
+    /* background-color: lightblue;  */
     margin-top: 25px;
     width: 100%;
     display: flex;
@@ -38,17 +38,19 @@ form .form-name {
 }
 
 .form-firstname {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 50%;
+    margin-top: 5px;
 }
 
 .form-firstname input.firstname {
     width: 100%;
     padding: 10px;
+    margin-top: 10px;   
 }
 
 .form-lastname {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 50%;
     margin-top: 5px;
 }
@@ -56,7 +58,7 @@ form .form-name {
 .form-lastname input.lastname {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /* input.firstname {
@@ -127,16 +129,14 @@ textarea {
 
 .form-checkbox {
     /* background-color: lightblue; */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .form-checkbox label.checkbox {
     font-size: 14px;
     padding-left: 20px;
-    line-height: 20%;
 }
-
 
 /* .form-button {
     background-color: lightblue;
@@ -144,7 +144,7 @@ textarea {
 
 input.button {
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     background-color: hsl(169, 82%, 27%);
 }
