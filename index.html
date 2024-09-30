@@ -10,44 +10,90 @@
   <title>Frontend Mentor | Contact form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
+  <div class="container">
+    <form action="#">
+      <div class="form-heading">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="form-name">
+        <div class="form-firstname">
+          <label for="firstname">First Name <span>*</span></label><br>
+          <input type="text" name="firstname" required>
+        </div>
+        <div class="form-lastname">
+          <label for="lastname">Last Name <span>*</span></label><br>
+          <input type="text" name="lastname">
+        </div>
+      </div>
+      <div class="form-email">
+        <label for="email">Email Address <span>*</span></label><br>
+        <input type="email" name="email">
+      </div>
+      <div class="form-query">
+        <label for="query">Query Type <span>*</span></label><br>
+        <div class="form-general">
+          <input type="radio" name="General Enquiry">
+          <label for="General Enquiry">General Enquiry</label>
+        </div>
+        <div class="form-support">
+          <input type="radio" name="Support Request">
+          <label for="Support Request">Support Request</label>
+        </div>
+      </div>
+      <div class="form-message">
+        <label for="massage">Message <span>*</span></label><br>
+        <textarea name="Message" id="Message"></textarea>
+      </div>
+      <div class="form-checkbox">
+        <input type="checkbox" name="checkbox">
+        <label for="checkbox">I consent to being contacted by the team <span>*</span></label>
+      </div>
+      <div class="form-button">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
 
-  Contact Us
 
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
+
+
+<!-- 
+
+First Name
+This field is required
+
+Last Name
+This field is required
+
+Email Address
+Please enter a valid email address
+This field is required
+
+Query Type
+
+Support Request
+Please select a query type
+
+Message
+This field is required
+
+
+To submit this form, please consent to being contacted
+
+Submit
+
+Message Sent!
+Thanks for completing the form. We'll be in touch soon! -->
