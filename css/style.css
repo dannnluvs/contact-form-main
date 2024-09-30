@@ -37,17 +37,39 @@ form .form-name {
     margin-bottom: 20px;
 }
 
-input.firstname {
+.form-firstname {
+    background-color: lightblue;
+    width: 50%;
+}
+
+.form-firstname input.firstname {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-lastname {
+    background-color: lightcoral;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.form-lastname input.lastname {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
 }
 
-input.lastname {
+/* input.firstname {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-}
+} */
+
+/* input.lastname {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+} */
 
 .form-email {
     /* background-color: lightblue; */
