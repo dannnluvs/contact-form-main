@@ -100,6 +100,7 @@ form .form-name {
     padding: 15px;
     border: 1px solid hsl(186, 15%, 59%);
     border-radius: 10px;
+    vertical-align: middle;
 }
 
 .form-query-flex .form-support {
@@ -108,6 +109,7 @@ form .form-name {
     border: 1px solid hsl(186, 15%, 59%);
     /* background-color: rebeccapurple; */
     border-radius: 10px ;
+    vertical-align: middle;
 }
 
 /* .form-query .form-general {
@@ -136,6 +138,10 @@ textarea {
 .form-checkbox label.checkbox {
     font-size: 14px;
     padding-left: 20px;
+}
+
+input.box {
+    vertical-align: middle;
 }
 
 /* .form-button {
@@ -179,6 +185,5 @@ label.general::after {
 label.support::after {
     content: none;
 }
-
 
 /* this is a comment */
