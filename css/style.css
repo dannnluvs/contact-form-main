@@ -20,7 +20,7 @@ body {
 }
 
 .container form {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     width: 40%;
     height: 90vh;
     border-radius: 10px;
@@ -88,6 +88,36 @@ form .form-name {
     background-color: lightblue;
 } */
 
+.form-general:active {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+.form-general:focus {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+.form-general:hover {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+.form-support:active {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+.form-support:focus {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+.form-support:hover {
+    background-color: hsl(148, 38%, 91%);
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
 .form-query .form-query-flex {
     display: flex;
     justify-content: center;
@@ -129,6 +159,21 @@ textarea {
     border-radius: 5px;
 }
 
+textarea:active {
+    /* background-color: hsl(148, 38%, 91%); */
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+textarea:focus {
+    /* background-color: hsl(148, 38%, 91%); */
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
+textarea:hover {
+    /* background-color: hsl(148, 38%, 91%); */
+    outline: 1px solid hsl(186, 15%, 59%);
+}
+
 .form-checkbox {
     /* background-color: lightblue; */
     margin-top: 25px;
@@ -144,6 +189,10 @@ input.box {
     vertical-align: middle;
 }
 
+input:checked:active {
+    background-color: red;
+}
+
 /* .form-button {
     background-color: lightblue;
 } */
@@ -153,6 +202,10 @@ input.button {
     padding: 20px;
     border-radius: 10px;
     background-color: hsl(169, 82%, 27%);
+}
+
+input.button:hover {
+    background-color: hsl(169, 50%, 27%);
 }
 
 
@@ -184,6 +237,16 @@ label.general::after {
 
 label.support::after {
     content: none;
+}
+
+input:focus {
+    outline: 2px solid hsl(186, 15%, 59%);
+    border: 2px solid hsl(148, 38%, 91%);
+}
+
+input:active {
+    outline: 2px solid hsl(186, 15%, 59%);
+    border: 2px solid hsl(148, 38%, 91%);
 }
 
 /* this is a comment */
